@@ -1,0 +1,65 @@
+{
+  "project": "ChattyInTheWild",
+  "current_ball_holder": "cipher",
+  "holder_role": "CIPHER Specialist (Udarbejd Teknisk Kravspecifikation (Spec) for ChattyInTheWild)",
+  "team_leader": "alex",
+  "leader_role": "Teamleder & Overordnet Strateg (Alex)",
+  "status": "active",
+  "active_task": "Udarbejd Teknisk Kravspecifikation (Spec) for ChattyInTheWild",
+  "waiting_for": null,
+  "last_updated": "2026-09-30T18:39:14.881Z",
+  "pipeline_stages": [
+    {
+      "stage": "1. Planlægning, Koncept & Strategi",
+      "lead": "Alex",
+      "status": "completed"
+    },
+    {
+      "stage": "2. 3D Model Creation & Tripo3d.ai",
+      "lead": "Geppetto",
+      "status": "completed"
+    },
+    {
+      "stage": "3. 3D QA & Mesh Certificering (test_3d.xlsx)",
+      "lead": "Columbo",
+      "status": "active"
+    },
+    {
+      "stage": "4. Grafisk Identitet & UI-Assets (grafik/)",
+      "lead": "Iris",
+      "status": "in_progress"
+    },
+    {
+      "stage": "5. Godot 4 Spilmotor & GDScript",
+      "lead": "Apollo",
+      "status": "active"
+    },
+    {
+      "stage": "6. Backend, MySQL & Admin API",
+      "lead": "Atlas",
+      "status": "standby"
+    },
+    {
+      "stage": "7. QA Test & Sluttest (test_liste.xlsx)",
+      "lead": "Sherlock",
+      "status": "standby"
+    }
+  ],
+  "history": [
+    {
+      "timestamp": "2026-09-30T18:39:14.881Z",
+      "from": "Kenneth (CEO)",
+      "to": "alex",
+      "task": "Igangsæt udviklingen og overvåg agent-flowet i AGENT_FLOW.json",
+      "note": "Alex holder det overordnede overblik."
+    },
+    {
+      "timestamp": "2026-09-30T18:39:14.881Z",
+      "from": "alex",
+      "to": "columbo",
+      "task": "Validér 3D-aktiver i test_3d.xlsx før Apollo importerer dem i Godot",
+      "note": "Columbo tester LOD, VRAM og skygger for 3D-aktiver."
+    }
+  ],
+  "last_update": "2026-10-01T11:03:34.711Z"
+}
